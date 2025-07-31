@@ -1,0 +1,7 @@
+services:
+  app:
+    image: flask-mod5:1.0
+    ports:
+      - ${PORT}:${PORT}
+    env_file:
+      - .env
